@@ -77,7 +77,15 @@ To find this data, I ran the following query that accomplishes the following:
   
 ![warehouse_min_max.sql](https://github.com/johnsoninsights/Mint-Classic/blob/main/warehouse_min_max.sql) 
 
-![warehouese_query_results](https://github.com/johnsoninsights/Mint-Classic/blob/main/wharehouse_query_results.png)
+![warehouese_query_results](https://github.com/johnsoninsights/Mint-Classic/blob/main/wharehouse_query_results.png) 
+
+To next addres the questions reagrding stock and product lines. I will be running a query to give me a breakdown by year of the prodcut lines. I want to seew how many orders were made for each product line each year , how many pieces those orders equate to (individual pieces sold), and the big question HOW MUCH REVENUE DID EACH PRODCUT LINE BRING IN?
+below is the QUERY i ran. 
+
+[productline_revenue.sql](https://github.com/johnsoninsights/Mint-Classic/blob/main/productline_revenue.sql) 
+
+[productline_revenue.png](https://github.com/johnsoninsights/Mint-Classic/blob/main/productline_revenue.png)
+
 
 
 
