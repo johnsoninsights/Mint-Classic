@@ -99,10 +99,10 @@ I also felt it would be helpful to have a quick summary of **how much of each pr
 ## ANALYZE
 After gathering all the data needed to answer the questions asked of me, I made the following observations that will be crucial in my analysis:
 
-1. Warehouse C and B are the largest warehouses available to the company and are also the most underutilized, standing at 50% and 67% full.
-2. If current stock is properly organized, the 'current stock' of both warehouse A and D could be consolidated into the 'remaining capacity' of C and B, closing not only one warehouse but two.
-3. The 'Trains' product line has underperformed for the duration of the sample dataset given to me and would be a good candidate for a possible cancellation of this line.
-4. The 'Classic Cars' and 'Vintage Cars' lines have been the most profitable, so continuing to cater to these customers and market these models would be wise.
+1. **Warehouse C and B are the largest warehouses available** to the company and are also the most underutilized, standing at 50% and 67% full.
+2. If current stock is properly organized, **the 'current stock' of both warehouse A and D could be consolidated into the 'remaining capacity' of C and B**, closing not only one warehouse but two.
+3. The **'Trains' product line has underperformed** for the duration of the sample dataset given to me and would be a good candidate for a possible cancellation of this line.
+4. The **'Classic Cars' and 'Vintage Cars' lines have been the most profitable**, so continuing to cater to these customers and market these models would be wise.
 
 ## SHARE
 To share my findings with my stakeholders, I created a few visualizations to illustrate the main points of my analysis.  
