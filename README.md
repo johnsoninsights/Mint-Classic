@@ -1,4 +1,6 @@
-# MINT CLASSIC CARS ANALYSIS
+# MINT CLASSIC CARS ANALYSIS 
+
+[](https://mail.google.com/mail/u/0?ui=2&ik=63b4c2d8e1&attid=0.1&permmsgid=msg-a:r7367372396630331396&th=1936efea61c3e1c3&view=fimg&fur=ip&permmsgid=msg-a:r7367372396630331396&sz=s0-l75-ft&attbid=ANGjdJ8CRMh_cG_sEpWbIQiLtOcFG9flwSgh3tnsP1JE1Z4UQJMjNLCgty6wU3M4tv7KQrc_eODFN9-9u8V9n_A84n9wiMVIC2G-nA00iCObr7lVJWZWqe-h1AmGJy8&disp=emb&realattid=ii_m4092nf21&zw)
 
 ## Project Purpose
 This project is intended to showcase my skill set as an analyst in working with relational databases, data manipulation, and data cleaning using SQL. I will also be showcasing various skills in Excel to visualize and aggregate data using pivot tables. For this project, I will be using a common analysis process used in the data community to help MINT CLASSICS (a model car company) make some data-driven decisions.
@@ -62,5 +64,9 @@ To find this data, I ran the following query that accomplishes the following:
 - JOINS the warehouse and products table to get the data needed.
 - GROUPS the data by warehouse.
 - ORDERS the data by remaining capacity or how much space is left with the warehouse with the most available space at the top.
+  
+[](https://github.com/johnsoninsights/Mint-Classic/blob/main/total%20of%20product%20lines%20sold%20by%20year.sql) 
+
+
 
   
