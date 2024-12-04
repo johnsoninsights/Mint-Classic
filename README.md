@@ -3,7 +3,7 @@
 ![unnamed.png](https://github.com/johnsoninsights/Mint-Classic/blob/main/unnamed.png)
 
 ## Project Purpose
-This project showcases working with relational databases, data manipulation, and data cleaning using SQL. Additionally I will be using various functions in Excel to visualize and aggregate data using pivot tables. For this project, I will be using a common analysis process used in the data community to help MINT CLASSICS (a model car company) draw insights from thier data and make data-driven decisions.
+This project showcases working with **relational databases**, **data manipulation**, and **data cleaning using SQL**. Additionally I will be using various functions in **Excel** to visualize and aggregate data using pivot tables. For this project, I will be using a common analysis process used in the data community to help MINT CLASSICS (a model car company) draw insights from thier data and make data-driven decisions.
 
 - ASK
 - PREPARE
