@@ -38,8 +38,18 @@ I will be using MySQL Workbench to familiarize myself with the general business 
 
 ## PREPARE
 I have been given access to Mint Classics relational database and relational data model.
-Link tables:
+Link tables: 
+- [mintclassic_customers.csv](https://github.com/johnsoninsights/Mint-Classic/blob/main/mintclassic_customers.csv)
+- [mintclassic_employees.csv](https://github.com/johnsoninsights/Mint-Classic/blob/main/mintclassic_employees.csv)
+- [mintclassic_offices.csv](https://github.com/johnsoninsights/Mint-Classic/blob/main/mintclassic_offices.csv)
+- [mintclassic_orderdetails.csv](https://github.com/johnsoninsights/Mint-Classic/blob/main/mintclassic_orderdetails.csv)
+- [mintclassic_orders.csv](https://github.com/johnsoninsights/Mint-Classic/blob/main/mintclassic_orders.csv)
+- [mintclassic_payments.csv](https://github.com/johnsoninsights/Mint-Classic/blob/main/mintclassic_payments.csv)
+- [mintclassic_productlines.csv](https://github.com/johnsoninsights/Mint-Classic/blob/main/mintclassic_productlines.csv)
+- [mintclassic_products.csv](https://github.com/johnsoninsights/Mint-Classic/blob/main/mintclassic_products.csv)
+- [mintclassic_warehouses.csv](https://github.com/johnsoninsights/Mint-Classic/blob/main/mintclassic_warehouses.csv)
 
+            
 After examining the data, I decided that the following tables will be of the most use to me to answer the questions at hand:
 - orderdetails
 - orders
@@ -65,7 +75,9 @@ To find this data, I ran the following query that accomplishes the following:
 - GROUPS the data by warehouse.
 - ORDERS the data by remaining capacity or how much space is left with the warehouse with the most available space at the top.
   
-![total of product lines sold by year.sql](https://github.com/johnsoninsights/Mint-Classic/blob/main/total%20of%20product%20lines%20sold%20by%20year.sql) 
+![warehouse_min_max.sql](https://github.com/johnsoninsights/Mint-Classic/blob/main/warehouse_min_max.sql) 
+
+![warehouese_query_results](https://github.com/johnsoninsights/Mint-Classic/blob/main/wharehouse_query_results.png)
 
 
 
