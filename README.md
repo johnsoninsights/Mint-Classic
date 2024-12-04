@@ -68,29 +68,29 @@ In answering these questions, I'm hoping to find a warehouse that is being under
 To do this, I will need to perform multiple SQL functions to gather the appropriate data needed and in the format I want.
 
 To find this data, I ran the following query that accomplishes the following:
-- Shows me the max stock every warehouse can hold using the formula F=P/C or full capacity = products currently in warehouse / current capacity.
-- Performs the sum function to add up the current stock of the warehouse.
+- Shows me the max stock every warehouse can hold using the formula **F=P/C or full capacity = products currently in warehouse / current capacity.**
+- Performs the **sum function** to add up the current stock of the warehouse.
 - Subtracts the full capacity of the warehouse from the current capacity to show me how much space is left.
-- JOINS the warehouse and products table to get the data needed.
-- GROUPS the data by warehouse.
-- ORDERS the data by remaining capacity or how much space is left with the warehouse with the most available space at the top.
+- **JOINS** the warehouse and products table to get the data needed.
+- **GROUPS** the data by warehouse.
+- **ORDERS** the data by remaining capacity or how much space is left with the warehouse with the most available space at the top.
   
-![warehouse_min_max.sql](https://github.com/johnsoninsights/Mint-Classic/blob/main/warehouse_min_max.sql) 
+![warehouse_min_max.sql](https://github.com/johnsoninsights/Mint-Classic/blob/main/warehouse_min_max.sql)  **<--SQL CODE**
 
 ![warehouese_query_results](https://github.com/johnsoninsights/Mint-Classic/blob/main/wharehouse_query_results.png) 
 
 To next addres the questions reagrding stock and product lines. I will be running a query to give me a breakdown by year of the prodcut lines. I want to seew how many orders were made for each product line each year , how many pieces those orders equate to (individual pieces sold), and the big question HOW MUCH REVENUE DID EACH PRODCUT LINE BRING IN?
 below is the QUERY i ran. 
 
-![productline_revenue.sql](https://github.com/johnsoninsights/Mint-Classic/blob/main/productline_revenue.sql) 
+![productline_revenue.sql](https://github.com/johnsoninsights/Mint-Classic/blob/main/productline_revenue.sql) **<--SQL CODE**
 
 ![productline_revenue.png](https://github.com/johnsoninsights/Mint-Classic/blob/main/productline_revenue.png) 
 
 I also felt it would be helpful to have a quick summary of **how much of each prodcut line is currently in stock** and **how much of that product line has beeen ordered.** I ran the follwoing querys to pull that information from the dataset. 
 
-![instock_querey.sql](https://github.com/johnsoninsights/Mint-Classic/blob/main/instock_query.sql) 
+![instock_querey.sql](https://github.com/johnsoninsights/Mint-Classic/blob/main/instock_query.sql) **<-- SQL CODE**
 
-![quantityordered_querey.sql](https://github.com/johnsoninsights/Mint-Classic/blob/main/quatityordered_query.sql)
+![quantityordered_querey.sql](https://github.com/johnsoninsights/Mint-Classic/blob/main/quatityordered_query.sql) **<-- SQL CODE**
 
 ![quickquery_results.png](https://github.com/johnsoninsights/Mint-Classic/blob/main/quickquery_results.png) 
 
