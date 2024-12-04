@@ -65,7 +65,7 @@ To find this data, I ran the following query that accomplishes the following:
 - GROUPS the data by warehouse.
 - ORDERS the data by remaining capacity or how much space is left with the warehouse with the most available space at the top.
   
-[](https://github.com/johnsoninsights/Mint-Classic/blob/main/total%20of%20product%20lines%20sold%20by%20year.sql) 
+![total of product lines sold by year.sql](https://github.com/johnsoninsights/Mint-Classic/blob/main/total%20of%20product%20lines%20sold%20by%20year.sql) 
 
 
 
