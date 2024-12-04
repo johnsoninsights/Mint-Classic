@@ -82,11 +82,45 @@ To find this data, I ran the following query that accomplishes the following:
 To next addres the questions reagrding stock and product lines. I will be running a query to give me a breakdown by year of the prodcut lines. I want to seew how many orders were made for each product line each year , how many pieces those orders equate to (individual pieces sold), and the big question HOW MUCH REVENUE DID EACH PRODCUT LINE BRING IN?
 below is the QUERY i ran. 
 
-[productline_revenue.sql](https://github.com/johnsoninsights/Mint-Classic/blob/main/productline_revenue.sql) 
+![productline_revenue.sql](https://github.com/johnsoninsights/Mint-Classic/blob/main/productline_revenue.sql) 
 
-[productline_revenue.png](https://github.com/johnsoninsights/Mint-Classic/blob/main/productline_revenue.png)
+![productline_revenue.png](https://github.com/johnsoninsights/Mint-Classic/blob/main/productline_revenue.png) 
 
+I also felt it would be helpful to have a quick summary of **how much of each prodcut line is currently in stock** and **how much of that product line has beeen ordered.** I ran the follwoing querys to pull that information from the dataset. 
 
+![instock_querey.sql](https://github.com/johnsoninsights/Mint-Classic/blob/main/instock_query.sql) 
 
+![quantityordered_querey.sql](https://github.com/johnsoninsights/Mint-Classic/blob/main/quatityordered_query.sql)
+
+![quickquery_results.png](https://github.com/johnsoninsights/Mint-Classic/blob/main/quickquery_results.png) 
+
+![quickquery_reulsts2.png](https://github.com/johnsoninsights/Mint-Classic/blob/main/quickquery_results2.png)
+
+## ANALYZE
+After gathering all the data needed to answer the questions asked of me, I made the following observations that will be crucial in my analysis:
+
+1. Warehouse C and B are the largest warehouses available to the company and are also the most underutilized, standing at 50% and 67% full.
+2. If current stock is properly organized, the 'current stock' of both warehouse A and D could be consolidated into the 'remaining capacity' of C and B, closing not only one warehouse but two.
+3. The 'Trains' product line has underperformed for the duration of the sample dataset given to me and would be a good candidate for a possible cancellation of this line.
+4. The 'Classic Cars' and 'Vintage Cars' lines have been the most profitable, so continuing to cater to these customers and market these models would be wise.
+
+## SHARE
+To share my findings with my stakeholders, I created a few visualizations to illustrate the main points of my analysis.  
+The following chart clearly shows that the current products of Warehouse A&D can be consilidated into The availble space of Warehouses C&B
+
+![warehouse_consolidation.png](https://github.com/johnsoninsights/Mint-Classic/blob/main/warehouse_consolidation.png)
+
+Next i created a chart to show how the 'Trains' product line has underperformed over the course of the data given to me, and how well the 'classic cars' line had performed. The conclusioins can clearly be made based off of the bar chart and acompaning piviot table. 
+
+![productline_barchart](https://github.com/johnsoninsights/Mint-Classic/blob/main/productline_barchart.png) 
+
+## ACT
+Based on the analysis I performed, I would make the following data-driven recommendations to optimize the company's allocation of resources:
+
+1. **Close Warehouse D**: It currently houses the three most unpopular product lines, and its contents can be moved to a more underutilized warehouse like Warehouse C, which is currently only 50% full.
+2. **Shut down the 'Trains' product line**: It has underperformed for the entire duration of the dataset and is not worth the cost to continue to store and ship the product.
+3. **Promote and market the 'Classic Car' product line**: This line accounts for more than 67% of the revenue for the company over the past three years.
+
+If you have made it this far in my analysis thank you so much for taking a look at my work. It means alot! Please reach out if you havae thoughts or recommendations. Im always open for feedback from more experienced analyst. Thanks again for your time.
 
   
