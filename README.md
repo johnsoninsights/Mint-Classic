@@ -3,7 +3,7 @@
 ![unnamed.png](https://github.com/johnsoninsights/Mint-Classic/blob/main/unnamed.png)
 
 ## Project Purpose
-This project showcases working with **relational databases**, **data manipulation**, and **data cleaning using SQL**. Additionally I will be using various functions in **Excel** to visualize and aggregate data using pivot tables. For this project, I will be using a common analysis process used in the data community to help MINT CLASSICS (a model car company) draw insights from thier data and make data-driven decisions.
+This project showcases working with **relational databases**, **data manipulation**, and **data cleaning using SQL**. Additionally I will be using various functions in **Excel** to visualize and aggregate data using pivot tables. For this project, I will be using the following analysis process to help MINT CLASSICS (a model car company) draw insights from thier data and make data-driven decisions.
 
 - ASK
 - PREPARE
@@ -26,10 +26,10 @@ Mint Classics offers the following product lines of model cars:
 - Trains
 
 ## ASK
-I will be using MySQL Workbench to familiarize myself with the general business and examining the current data. I was provided with a data model and sample data tables to review. I will be isolating and identifying the parts of the data that could be useful in deciding how to reduce inventory. I will be writing queries to answer questions like these:
-1. Where are items stored and if they were rearranged, could a warehouse be eliminated?
+I will be using MySQL Workbench to familiarize myself with the general business and examining the current data. I was provided with a data model and sample data tables to review. I will be isolating and identifying the parts of the data that could be useful in deciding how to reduce inventory. **I will be writing queries to answer questions like these:**
+1. Where are items stored and if they were rearranged, **could a warehouse be eliminated?**
 2. How are inventory numbers related to sales figures? Do the inventory counts seem appropriate for each item?
-3. Are we storing items that are not moving? Are any items candidates for being dropped from the product line?
+3. Are we storing items that are not moving? **Are any items candidates for being dropped from the product line?**
 
 ## Project Objectives
 1. Explore products currently in inventory.
